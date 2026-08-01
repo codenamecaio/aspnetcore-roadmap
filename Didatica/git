@@ -1,0 +1,21 @@
+    Git
+
+1. O git é um sistema de versionamento de arquivos.
+2. Sistema de controle de versão distribuido.
+3. Registra as mudanças de maneira organizada.
+
+    Você consegue saber:
+
+- Quais arquivos foram alterados;
+- O que mudou dentro de cada arquivo;
+- Quem fez determinada alteração;
+- Quando a alteração foi feita;
+- Poruqe ela foi feita;
+- Voltar para versões anteriores;
+- Trabalhar em versões separadas;
+- Integrar o trabalho de várias pessoas.
+
+    Git não é GitHub!
+
+1. git: É a ferramenta de controe de versão(versionamento).
+2
