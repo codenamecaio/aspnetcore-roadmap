@@ -80,4 +80,48 @@ Branch não é uma cópia completa
 
 Merge é o processo de integrar o histórico de uma branch em outra. Ou seja, Pegar as alterações feitas na branch feature e integre-as à branch main.
 
+    Rebase
 
+o rebase reorganiza a sequencia de commits.
+
+É útil para:
+
+1. Atualizar sua branch antes de abrir um Pull Request.
+2. Manter o histórico mais linear.
+3. Reorganizar commits locais.
+4. Limpar commits antes de compartilhar.
+
+    Pull Request 
+
+Um Pull Request, frequentemente abreviado como PR, é uma solicitação para integrar alterações de uma branch em outra.
+
+O que acontece em um Pull Request?
+
+Uma equipe pode:
+
+- Visualizar os arquivos alterados;
+- Analisar as linhas modificadas;
+- Deixar comentários;
+- Solicitar mudanças;
+- Aprovar o código;
+- Executar testes automáticos;
+- Verificar regras de qualidade;
+- Integrar a branch.
+
+Por que Pull Requests são importantes?
+
+Eles ajudam a:
+
+1. Evitar alterações diretas na main.
+2. Melhorar a qualidade do código.
+3. Compartilhar conhecimento.
+4. Detectar bugs.
+5. Documentar decisões.
+6. Executar automações antes da integração.
+
+    Merge Conflict
+Um merge conflict ocorre quando o Git não consegue decidir automaticamente como combinar alterações.
+   
+    .gitignore
+
+O arquivo .gitignore informa ao Git quais arquivos ou pastas devem ser ignorados.
