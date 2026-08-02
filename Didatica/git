@@ -10,12 +10,74 @@
 - O que mudou dentro de cada arquivo;
 - Quem fez determinada alteração;
 - Quando a alteração foi feita;
-- Poruqe ela foi feita;
+- Porque ela foi feita;
 - Voltar para versões anteriores;
 - Trabalhar em versões separadas;
 - Integrar o trabalho de várias pessoas.
 
     Git não é GitHub!
 
-1. git: É a ferramenta de controe de versão(versionamento).
-2
+1. Git: É a ferramenta de controe de versão(versionamento).
+2. GitHub: É a plataforma online que hospeda respositórios.
+3. Git oferece recursos de colaboração(desenvolvedores trabalham em conjunto).
+
+
+    Repositório
+
+1. Os arquivos do projeto.
+2. O histórico de alteração.
+3. Os commits. 
+4. As branches. 
+5. As tags.
+6. As configurações relacionadas ao projeto.
+
+A pasta .git contém os dados internos do Git.
+
+Ela armazena informações como:
+
+- Commits;
+- Branches;
+- Referências;
+- Configurações;
+- Objetos internos;
+- Histórico.
+
+Você normalmente não deve editar os arquivos dentro de .git manualmente.
+
+    Commit
+
+Um commit é um registro de uma mudança ou conjunto de mudanças no histórico do projeto.
+
+Um commit normalmente contém:
+
+1. Um identificador único.
+2. Autor.
+3. Data e hora.
+4. Mensagem.
+5. Referência ao commit anterior.
+6. alterações registradas.
+
+    Push / Pull
+
+- Git push envia commits locais para o repositório remoto e git pull busca alterações do repositório remoto e tenta integrá-las ao seu repositório local.
+
+    Branch
+
+Uma branch é uma linha independente de desenvolvimento.
+
+1. Desenvolver funcionalidades isoladamente.
+2. Corrigir bugs sem misturar mudanças.
+3. Testar ideias.
+4. Trabalhar em paralelo.
+5. Revisar alterações antes de integrá-las.
+6. Reduzir o risco de quebrar a versão principal.
+
+Branch não é uma cópia completa
+
+É comum imaginar que criar uma branch duplica todo o projeto, conceitualmente, ela parece uma cópia, mas internamente o Git trabalha de maneira muito mais eficiente. Uma branch é basicamente uma referência para um ponto do histórico. Por isso, criar branches é muito rápido e barato.
+
+    Merge
+
+Merge é o processo de integrar o histórico de uma branch em outra. Ou seja, Pegar as alterações feitas na branch feature e integre-as à branch main.
+
+
