@@ -45,5 +45,56 @@ TSL
 2. Pode ser comparado com uma API.
 3. Garantia de dados não vazados.
 
+GET 
+
+. Solicita ao servidor uma leitura ou recuperação de dados. EX:
+    - Abrir uma página Web.
+
+POST 
+
+. Envia novos dados para o servidor para criar algo novo. EX:
+    - Envio de dados para um banco de dados.
+
+PUT 
+
+. Atualiza completamente uma informação existente se ele não existir o comando PUT cria os dados. EX:
+    - Substitui todos os dados do perfil de um usuário por novos.
+
+PATCH 
+
+. Atualiza parte de uma informação já existente. EX:
+    - Foto, CPF ou número de contato.
+
+DELETE
+
+. DELETA informações especificas do servidor. EX:
+    - Apaga um número.
+
+OPTIONS 
+
+. Abre possibilidades que o servidor de metodos e regras que ele permite nesse endereço. Ex: 
+    - CORS. 
+
+HEAD
+
+. Focado em metados(informação principal), é uma descrição minuciosa da informação.Ex:
+    - É um edenreçamento de algo.
 
 
+Status Code
+
+
+1xx: Iformativos.
+ - Uma resposta rápida.
+
+2xx: Sucesso.
+ - Resposta positiva.
+
+3xx: Redirecionamento.
+ - Mudança de endereço.
+
+4xx: Erro do Cliente.
+ - Página não encontrada (404) ou acesso negado (403)
+
+5xx: Erro do Servidor.
+ - o servidor "quebrou" ou falha ao tentar processar. internal server error (500) ou bad gateway (502).
