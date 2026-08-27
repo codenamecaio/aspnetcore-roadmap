@@ -121,8 +121,8 @@ Use estas trilhas como **pontos de entrada**, não como descrições rígidas de
 
 **Checklist de referência**
 
-- [ ] Git
-- [ ] HTTP
+- [✅] Git
+- [✅] HTTP
 - [ ] C#
 - [ ] Orientação a Objetos
 - [ ] LINQ
@@ -222,16 +222,16 @@ Construa a base comum a qualquer backend: Git, internet, HTTP, APIs, estruturas 
 
 **🔴 Essencial · Git**
 
-- [ ] Git
-- [ ] Repository
-- [ ] Commit
-- [ ] Push / Pull
-- [ ] Branch
-- [ ] Merge
-- [ ] Rebase
-- [ ] Pull Request
-- [ ] Merge Conflict
-- [ ] `.gitignore`
+- [✅] Git
+- [✅] Repository
+- [✅] Commit
+- [✅] Push / Pull
+- [✅] Branch
+- [✅] Merge
+- [✅] Rebase
+- [✅] Pull Request
+- [✅] Merge Conflict
+- [✅] `.gitignore`
 
 **🟠 Importante · Estratégias de Branch**
 
@@ -241,32 +241,32 @@ Construa a base comum a qualquer backend: Git, internet, HTTP, APIs, estruturas 
 
 **🔴 Essencial · Internet e HTTP**
 
-- [ ] Client / Server
-- [ ] IP
-- [ ] Porta
-- [ ] DNS
-- [ ] Domínio
-- [ ] HTTP
-- [ ] HTTPS
-- [ ] TLS
+- [✅] Client / Server
+- [✅] IP
+- [✅] Porta
+- [✅] DNS
+- [✅] Domínio
+- [✅] HTTP
+- [✅] HTTPS
+- [✅] TLS
 
 **Métodos HTTP**
 
-- [ ] GET
-- [ ] POST
-- [ ] PUT
-- [ ] PATCH
-- [ ] DELETE
-- [ ] OPTIONS
-- [ ] HEAD
+- [✅ ] GET
+- [✅ ] POST
+- [✅ ] PUT
+- [✅ ] PATCH
+- [✅ ] DELETE
+- [✅ ] OPTIONS
+- [✅ ] HEAD
 
 **Status Codes**
 
-- [ ] 1xx
-- [ ] 2xx
-- [ ] 3xx
-- [ ] 4xx
-- [ ] 5xx
+- [✅ ] 1xx
+- [✅ ] 2xx
+- [✅ ] 3xx
+- [✅ ] 4xx
+- [✅ ] 5xx
 
 Entender principalmente:
 

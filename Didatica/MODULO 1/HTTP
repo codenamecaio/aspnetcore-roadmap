@@ -1,0 +1,100 @@
+Client / Server 
+
+1. O Client faz uma requisisção ao servidor, processa esse pedido e devolve uma respota (GET e POST).
+2. É uma interface visual, geralmente é o seu navegador.
+3. O Server (Servidor) é onde o sistema está hospedado podendo se comparar com o back-end.
+4. Recebe um determinado pedido e DEVOLVE UMA RESPOSTA.
+5. É uma infraestrutura de back-end.
+
+IP
+
+1. É um endereço de rede ou máquina.
+2. Temos também IP Privado/ IP Publico.
+ - O IP Privado é invisível para "o mundo exterior";
+ - Sem o IP a informação não saberia para onde ir;
+3. A diferença é entre sua rede interna e a internet global.
+
+Porta 
+
+1. é um apontamento expecificio em um IP.
+2. Navegação na Web(80 e 443), banco de Dados(3306) e no Desenvolvimento local(8080 ou 3000).
+
+DNS (Domain Name System)
+
+1. O nome de um endereço.
+2. Mudança de Números de máquina para algo "humanizado".
+
+Domínmio
+
+1. Cartão Visita do site.
+2. Transforma em diversos cabos de servidores em algo legível
+ - Extensão ou TLD (.com.br);
+ - Comercial (.com);
+ - Localizada no Brasil (.br);
+
+HTTP e HTTPS 
+
+1. HTTP é um protocolo padrão que imprime dados em "texto puro", que não é seguro.
+2. HTTP é uma rede exposta.
+3. HTTPS, o (S) é seguro.
+4. HTTPS é protegido e criptogragfado fazendo com que chegue ao back-end em total segredo.
+
+TSL
+
+1. O Protocloco TSL é o responsável por fazer a segurança do "HTTPS".
+2. Pode ser comparado com uma API.
+3. Garantia de dados não vazados.
+
+GET 
+
+. Solicita ao servidor uma leitura ou recuperação de dados. EX:
+    - Abrir uma página Web.
+
+POST 
+
+. Envia novos dados para o servidor para criar algo novo. EX:
+    - Envio de dados para um banco de dados.
+
+PUT 
+
+. Atualiza completamente uma informação existente se ele não existir o comando PUT cria os dados. EX:
+    - Substitui todos os dados do perfil de um usuário por novos.
+
+PATCH 
+
+. Atualiza parte de uma informação já existente. EX:
+    - Foto, CPF ou número de contato.
+
+DELETE
+
+. DELETA informações especificas do servidor. EX:
+    - Apaga um número.
+
+OPTIONS 
+
+. Abre possibilidades que o servidor de metodos e regras que ele permite nesse endereço. Ex: 
+    - CORS. 
+
+HEAD
+
+. Focado em metados(informação principal), é uma descrição minuciosa da informação.Ex:
+    - É um edenreçamento de algo.
+
+
+Status Code
+
+
+1xx: Iformativos.
+ - Uma resposta rápida.
+
+2xx: Sucesso.
+ - Resposta positiva.
+
+3xx: Redirecionamento.
+ - Mudança de endereço.
+
+4xx: Erro do Cliente.
+ - Página não encontrada (404) ou acesso negado (403)
+
+5xx: Erro do Servidor.
+ - o servidor "quebrou" ou falha ao tentar processar. internal server error (500) ou bad gateway (502).
