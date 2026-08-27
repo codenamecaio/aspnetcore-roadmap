@@ -235,9 +235,9 @@ Construa a base comum a qualquer backend: Git, internet, HTTP, APIs, estruturas 
 
 **🟠 Importante · Estratégias de Branch**
 
-- [ ] Git Flow
-- [ ] GitHub Flow
-- [ ] Trunk Based Development
+- [✅] Git Flow
+- [✅] GitHub Flow
+- [✅] Trunk Based Development
 
 **🔴 Essencial · Internet e HTTP**
 
@@ -252,21 +252,21 @@ Construa a base comum a qualquer backend: Git, internet, HTTP, APIs, estruturas 
 
 **Métodos HTTP**
 
-- [✅ ] GET
-- [✅ ] POST
-- [✅ ] PUT
-- [✅ ] PATCH
-- [✅ ] DELETE
-- [✅ ] OPTIONS
-- [✅ ] HEAD
+- [✅] GET
+- [✅] POST
+- [✅] PUT
+- [✅] PATCH
+- [✅] DELETE
+- [✅] OPTIONS
+- [✅] HEAD
 
 **Status Codes**
 
-- [✅ ] 1xx
-- [✅ ] 2xx
-- [✅ ] 3xx
-- [✅ ] 4xx
-- [✅ ] 5xx
+- [✅] 1xx
+- [✅] 2xx
+- [✅] 3xx
+- [✅] 4xx
+- [✅] 5xx
 
 Entender principalmente:
 

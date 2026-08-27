@@ -124,4 +124,5 @@ Um merge conflict ocorre quando o Git não consegue decidir automaticamente como
    
     .gitignore
 
-O arquivo .gitignore informa ao Git quais arquivos ou pastas devem ser ignorados.
+O arquivo .gitignore informa ao Git quais arquivos ou pastas devem ser ignorados...
+
