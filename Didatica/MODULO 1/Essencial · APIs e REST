@@ -1,0 +1,8 @@
+    O que é uma API ?
+
+1.  Application Programming Interface - Interface de Programação de Aplicações.
+2.  Meio de comunicação entre diferentes sistemas.
+3.  A API faz uma requisição ao sistema e ela recebe essa requisição.
+
+O cliente faz uma requisição a API esse pedido é processado e o servidor responde ao cliente.
+
