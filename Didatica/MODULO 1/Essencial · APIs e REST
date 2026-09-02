@@ -32,3 +32,65 @@ Exemplos:
 - Clientes
 - Pagamantos
 
+    URI
+
+1. Uniform Resource Identifier.
+2. É utilizada para identificar um recurso.
+3. Pode indicar onde esse recurso está disponível.
+4. Podemos pensar na URi como o endereço/identificador de um.
+
+    Path
+
+1. É o caminho do recurso dentro da URI.
+2. Indica qual recurso queremos acessar.
+
+    Query String
+
+1. Parâmentros adicionais enviados na URL.
+2. Começa depois do símbolo "?".
+3. É muito utilizada para:
+
+- Pesquisas.
+- Filtros.
+- Paginação.
+- Ordenação.
+
+    Headers
+
+1. Informações adicionais enviadas junto com uma requisição ou resposta HTTP
+2. Funcionam como metadados
+3. Fornecem informações importantes para a comunicação entre cliente e servidor
+
+    Exemplos de informações:
+- O formato dos dados
+- Informações de autenticação
+- Tipo de conteúdo.
+
+    Request 
+
+1. Requisição.
+2. Método HTTP
+3. URI
+
+Uma requisição HTTp pode conter:
+
+- Método como GET, POST, PUT ou DELETE.
+- URL/URI indica o recurso que será acessado.
+- Headers informações adicionais sobre a requisição.
+- Body dados enviados, quando necessário.
+
+    Response 
+
+1. Status Code
+2. Headers
+3. Body
+
+    JSON
+
+1. JavaScript Object Notation.
+2. Representar e Transportar dados.
+
+    Content-Type 
+
+1. Header que informa qual é o tipo ou formato do conteúdo que está sendo enviado.
+
