@@ -6,3 +6,29 @@
 
 O cliente faz uma requisição a API esse pedido é processado e o servidor responde ao cliente.
 
+    Rest
+
+1. Representational State Transfer.
+2. É um estilo arquitetural para construção de APIs.
+3. É muito utilizado com o protocolo HTTP.
+
+Métodos HTTP:
+- GET = Consultar
+- POST = Criar
+- PUT = Substituir/Atualizar
+- PATCH = Atualizar Parcialmente
+- DELETE = Excluir
+
+    Resource(Recurso)
+
+1. É uma enteidade disponibilizada pela API.
+2. Pode ser: Consultada, Criada, Alterada e Excluída.
+
+Exemplos:
+
+- Usuários
+- Produtos
+- Pedidos
+- Clientes
+- Pagamantos
+

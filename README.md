@@ -123,8 +123,8 @@ Use estas trilhas como **pontos de entrada**, não como descrições rígidas de
 
 - [✅] Git
 - [✅] HTTP
-- [ ] C#
-- [ ] Orientação a Objetos
+- [✅] C#
+- [✅] Orientação a Objetos
 - [ ] LINQ
 - [ ] Async / Await
 - [ ] ASP.NET Core
@@ -292,40 +292,40 @@ Entender principalmente:
 
 **🔴 Essencial · APIs e REST**
 
-- [ ] O que é uma API
-- [ ] REST
-- [ ] Resource
-- [ ] URI
-- [ ] Path
-- [ ] Query String
-- [ ] Headers
-- [ ] Request
-- [ ] Response
-- [ ] JSON
-- [ ] Content-Type
-- [ ] Stateless
-- [ ] Idempotência
+- [✅] O que é uma API
+- [✅] REST
+- [✅] Resource
+- [✅] URI
+- [✅] Path
+- [✅] Query String
+- [✅] Headers
+- [✅] Request
+- [✅] Response
+- [✅] JSON
+- [✅] Content-Type
+- [✅] Stateless
+- [✅] Idempotência
 
 **🟠 Importante · Estruturas de Dados**
 
-- [ ] Array
-- [ ] List
-- [ ] Stack
-- [ ] Queue
-- [ ] Hash Table
-- [ ] Dictionary
-- [ ] HashSet
-- [ ] Linked List
-- [ ] Tree
-- [ ] Graph
+- [✅] Array
+- [✅] List
+- [✅] Stack
+- [✅] Queue
+- [✅] Hash Table
+- [✅] Dictionary
+- [✅] HashSet
+- [✅] Linked List
+- [✅] Tree
+- [✅] Graph
 
 **🟠 Importante · Algoritmos**
 
-- [ ] Busca
-- [ ] Ordenação
-- [ ] Recursividade
-- [ ] Complexidade de algoritmos
-- [ ] Big O
+- [✅] Busca
+- [✅] Ordenação
+- [✅] Recursividade
+- [✅] Complexidade de algoritmos
+- [✅] Big O
 
 Exemplos:
 
