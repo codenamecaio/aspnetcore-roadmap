@@ -94,3 +94,13 @@ Uma requisição HTTp pode conter:
 
 1. Header que informa qual é o tipo ou formato do conteúdo que está sendo enviado.
 
+    Stateless
+
+1. Stateless = sem estado.
+2. Requisições independetes.
+
+
+    Idempotencia
+
+1. Executar uma operção várias vezes e manter o mesmo resultado final esperado.
+
