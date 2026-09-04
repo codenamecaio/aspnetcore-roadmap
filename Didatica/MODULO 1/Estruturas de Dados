@@ -79,6 +79,6 @@
 
 1. Estrutura formada por vértices(nodes) e arestas (edges).
 2. Diferentemente de uma Tree, um Graph pode possuir ciclos.
-3. Pode ser: 
+3. Pode ser:
 - Direcionado ou não direcionado.
 - Ponderado ou não ponderado.

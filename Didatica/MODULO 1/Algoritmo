@@ -1,0 +1,36 @@
+    Algoritmo - Definição
+
+1. Algoritmo utilizado para encontrar um elemento dentro de uma coleção.
+2. Existem diferentes formas de busca.
+3. As mais importantes: 
+
+- Bsuca Linear
+- Busca Binária
+
+    Ordenação
+
+1. Algoritmo utilizado para organizar elementos em uma determinada ordem.
+2. Podemos ordenar:
+
+- Crescente -> 1,2,3,4
+- Decrescente -> 4,3,2,1
+
+    Recursividade
+
+1. Técnica em que uma função chama a si mesma.
+2. É utilizada para resolver problemas que podem ser divididos em problemas menores.
+3. Uma função recursiva precisa ter uma condição de parada.
+
+
+    Complexidade de Algoritmos
+
+1. Mede quanto um algoritmo consome de recursos conforme a quantidade de dados aumenta.
+2. Os principais recursos analisados são:
+- Tempo
+- Memória
+
+    Big O
+
+1. Big O é uma notação utilizada para representar a complexidade de um algoritmo
+2. Principalemte utilizada para analisar o crescimento do tempo ou do espaço.
+3. Ela considera o comportamento do algoritmo conforme n cresce.
