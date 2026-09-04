@@ -1,0 +1,84 @@
+    Array 
+
+1. Estrutura que armazena vários elementos.
+2. Cada elemento possui uma posição(Índice).
+3. Os índices normalmente começam em 0
+4. Permite acessar um elemento diretamente pelo Índice.
+
+
+    List
+
+1. Coleção de elementos que pode crescer ou diminuir.
+2. EM linguagens como C#, List<T> normalmente é baseada em um array dinâmico.
+3. Acesso por índice geralmente é O(1).
+4. Inserção no final geralmente é O(1) amortizado.
+5. Inserção ou remoção no meio pode ser O(n).
+
+    Stack 
+
+1. Estrutura baseada no princípio LIFO(Last in, Frist Out).
+2. O último elemento inserido é o primeiro a sair.
+3. Principais operações:
+
+- Push = Adiciona.
+- Pop = Remove o último.
+- Peek = consulta o último.
+
+    Queue 
+
+1. Estrutura baseada no princípio FIFO(Frist in, Frist Out).
+2. O primeiro elemento inserido é o primeiro a sair.
+3. Principais operações:
+
+- Enqueue = Adiciona no final.
+- Dequeue = Remove do início.
+- Peek = Consulta o primeiro.
+
+    Hash Table
+
+1. Estrutura que armazena dados usando chave -> valor.
+2. Utiliza uma função de hash para determinar onde armazenar os dados.
+3. Bsuca, inserção e remoção são normalmente O(1) em média.
+4. Pode ocorrer colisão, quando duas chaves produzem posições relacionadas.
+
+    Dictionary
+
+1. É uma estrutura de dados baseada no conteito de chave e valor.
+2. Em C# Dictionary <string, int>;
+3. Normalmente é implementado usando uma Hash Table.
+4. Busca por chave geralmente é O(1) em média.
+5. As chaves devem ser únicas.
+
+    HashSet
+
+1. Coleção que armazena elementos únicos.
+2. Não permite valores duplicados.
+3. Utiliza hashing para realizar buscas rápidas.
+4. Inserção, remoção e busca são normalmente O(1) em média.
+
+    Linked List
+
+1. Estruturaformada por nós(nodes).
+2. Cada nó contém:
+
+- Um valor.
+- Uma referência para outro nó.
+
+3. Diferente de um array, os elementos não precisam estar armazenados em prosições consecutivas.
+4. Inserção/remoção em uma posição já ocnhecida pode ser O(1).
+5. Encontrar um elemento pode ser O(n).
+
+    Tree
+
+1. Estrutura hierárquica formada por nós.
+2. Possui um nó inicial chamado root.
+3. Os nós podem possuir filhos.
+4. Um exemplo é uma árvore binária.
+
+    Graph 
+
+1. Estrutura formada por vértices(nodes) e arestas (edges).
+2. Diferentemente de uma Tree, um Graph pode possuir ciclos.
+3. Pode ser: 
+- Direcionado ou não direcionado.
+- Ponderado ou não ponderado.
