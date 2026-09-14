@@ -1,0 +1,15 @@
+/workspaces/aspnetcore-roadmap/Curso do Balta/Calculator/bin/Debug/net10.0/Calculator
+/workspaces/aspnetcore-roadmap/Curso do Balta/Calculator/bin/Debug/net10.0/Calculator.deps.json
+/workspaces/aspnetcore-roadmap/Curso do Balta/Calculator/bin/Debug/net10.0/Calculator.runtimeconfig.json
+/workspaces/aspnetcore-roadmap/Curso do Balta/Calculator/bin/Debug/net10.0/Calculator.dll
+/workspaces/aspnetcore-roadmap/Curso do Balta/Calculator/bin/Debug/net10.0/Calculator.pdb
+/workspaces/aspnetcore-roadmap/Curso do Balta/Calculator/obj/Debug/net10.0/Calculator.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/aspnetcore-roadmap/Curso do Balta/Calculator/obj/Debug/net10.0/Calculator.AssemblyInfoInputs.cache
+/workspaces/aspnetcore-roadmap/Curso do Balta/Calculator/obj/Debug/net10.0/Calculator.AssemblyInfo.cs
+/workspaces/aspnetcore-roadmap/Curso do Balta/Calculator/obj/Debug/net10.0/Calculator.csproj.CoreCompileInputs.cache
+/workspaces/aspnetcore-roadmap/Curso do Balta/Calculator/obj/Debug/net10.0/Calculator.sourcelink.json
+/workspaces/aspnetcore-roadmap/Curso do Balta/Calculator/obj/Debug/net10.0/Calculator.dll
+/workspaces/aspnetcore-roadmap/Curso do Balta/Calculator/obj/Debug/net10.0/refint/Calculator.dll
+/workspaces/aspnetcore-roadmap/Curso do Balta/Calculator/obj/Debug/net10.0/Calculator.pdb
+/workspaces/aspnetcore-roadmap/Curso do Balta/Calculator/obj/Debug/net10.0/Calculator.genruntimeconfig.cache
+/workspaces/aspnetcore-roadmap/Curso do Balta/Calculator/obj/Debug/net10.0/ref/Calculator.dll
