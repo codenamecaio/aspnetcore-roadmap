@@ -37,23 +37,39 @@ namespace Calculator
         }
 
         static void Soma ()
+
         {
             Console.Clear();
             Console.WriteLine("---------------------------");
             Console.WriteLine("Digite o primeiro valor: ");
-            float v1 = float.Parse(Console.ReadLine());
-            
-            Console.WriteLine("Digite o segundo valor a ser somado: ");
-            float v2 = float.Parse(Console.ReadLine());
+
+            float v1;
+            while (!float.TryParse(Console.ReadLine(), out v1))
+            {
+                Console.WriteLine("Valor inválido.");
+                Console.WriteLine("Digite novamente o primeiro valor: ");
+            }
 
             Console.WriteLine("");
-            
+            Console.WriteLine("Digite o segundo valor a ser somado: ");
+
+            float v2;
+            while (!float.TryParse(Console.ReadLine(), out v2))
+            {
+                Console.WriteLine("Valor inválido.");
+                Console.WriteLine("Digite um segundo valor para efetuar a operação");
+            }
+
+            Console.WriteLine("");
+
             float Vtotal = v1 + v2;
             Console.WriteLine($"A soma dos valores é: {Vtotal}");
             //Console.WriteLine("A soma dos valores é: " + Vtotal);
             //Console.WriteLine("A soma dos valores é: " + (v1 + v2));
             //Console.WriteLine($"A soma dos valores é: {v1 + v2}");
+
             Console.ReadKey();
+            Menu();
         }
 
         static void Subtracao()
@@ -61,16 +77,35 @@ namespace Calculator
             Console.Clear();
             Console.WriteLine("---------------------------");
             Console.WriteLine("Digite o primeiro valor: ");
-            float v1 = float.Parse(Console.ReadLine());
+
+            float v1;
+            while(!float.TryParse(Console.ReadLine(), out v1))
+            {
+                Console.WriteLine("Valor inválido.");
+                Console.WriteLine("Por favor, Digite um número para fazer a operação: ");
+            }
+            //float v1 = float.Parse(Console.ReadLine());
 
             Console.WriteLine("Digite o segundo valor a ser subtraído: ");
-            float v2 = float.Parse(Console.ReadLine());
+
+            float v2;
+            while(!float.TryParse(Console.ReadLine(), out v2))
+            {
+                Console.WriteLine("Valor inválido.");
+                Console.WriteLine("Por favor, digite um número para continuar a operação: ");
+            }
+            //float v2 = float.Parse(Console.ReadLine());
 
             Console.WriteLine("");
 
             float Vtotal = v1 - v2;
             Console.WriteLine($"A subtração do primeiro valor com o segundo é: {Vtotal}");
+            //Console.WriteLine("A soma dos valores é: " + Vtotal);
+            //Console.WriteLine("A soma dos valores é: " + (v1 - v2));
+            //Console.WriteLine($"A soma dos valores é: {v1 - v2}");
+
             Console.ReadKey();
+            Menu();
         }
 
         static void Divisao()
@@ -78,16 +113,37 @@ namespace Calculator
             Console.Clear();
             Console.WriteLine("---------------------------");
             Console.WriteLine("Digite um primeiro valor: ");
-            float v1 = float.Parse(Console.ReadLine());
 
-            Console.WriteLine("Digite o valor que fará a divsão: ");
-            float v2 = float.Parse(Console.ReadLine());
+          float v1;
+          while(!float.TryParse(Console.ReadLine(), out v1))
+            {
+                Console.WriteLine("Valor inválido.: ");
+                Console.WriteLine("Por favor, digite um número para fazer a opreção: ");
+            }
+            //float v1 = float.Parse(Console.ReadLine());
 
             Console.WriteLine("");
-            
-            float Vtotal = v1 / v2;
+            Console.WriteLine("Digite o valor que fará a divsão: ");
+
+            float v2;
+            while(!float.TryParse(Console.ReadLine(), out v2) || v2 == 0)
+            {
+                Console.WriteLine("Valor inválido.");
+                Console.WriteLine("Por favor digite um número inteiro diferente de 0 para continuar a operação: ");
+            }
+            //float v2 = float.Parse(Console.ReadLine());
+
+            Console.WriteLine("");
+
+           float Vtotal = v1 / v2;
+
             Console.WriteLine($"O total dessa divisão foi: {Vtotal}");
+            //Console.WriteLine("A soma dos valores é: " + Vtotal);
+            //Console.WriteLine("A soma dos valores é: " + (v1 / v2));
+            //Console.WriteLine($"A soma dos valores é: {v1 / v2}");
+
             Console.ReadKey();
+            Menu();
         }
 
         static void Multiplicacao()
@@ -95,16 +151,35 @@ namespace Calculator
             Console.Clear();
             Console.WriteLine("---------------------------");
             Console.WriteLine("Digite o primeiro valor: ");
-            float v1 = float.Parse(Console.ReadLine());
 
+            float v1;
+            while(!float.TryParse(Console.ReadLine(), out v1))
+            {
+                Console.WriteLine("Valor inválido.");
+                Console.WriteLine("Por favor digite um número para começar a operação: ");
+            }
+            //float v1 = float.Parse(Console.ReadLine());
+
+            Console.WriteLine("");
             Console.WriteLine("Digite o segundo valor a ser multiplicado: ");
-            float v2 = float.Parse(Console.ReadLine());
+
+            float v2;
+            while(!float.TryParse(Console.ReadLine(), out v2))
+            {
+                Console.WriteLine("Valor inválido.");
+                Console.WriteLine("Por favor digite um número para continuar a operação");
+            }
+            //float v2 = float.Parse(Console.ReadLine());
 
             float Vtotal = v1 * v2;
-            Console.WriteLine("");
-            Console.WriteLine("---------------------------");
+
             Console.WriteLine($"O resultado dessa multiplicação foi: {Vtotal}");
+            //Console.WriteLine("A soma dos valores é: " + Vtotal);
+            //Console.WriteLine("A soma dos valores é: " + (v1 * v2));
+            //Console.WriteLine($"A soma dos valores é: {v1 * v2}");
+
             Console.ReadKey();
+            Menu();
         }
     }
 }
